@@ -20,3 +20,6 @@ Angela Lopez	- Social Media Manager - angela-lopez-social-media-manager.jpg
 Scott Estrada	- Developer - scott-estrada-developer.jpg
 Barbara Ramos - Graphic Designer - barbara-ramos-graphic-designer.jpg
 E ricordiamoci che console.log() è nostro amico!
+
+# FLOW
+- MILESTONE 0: Creo un array di oggetti contenenti le chiavi "name", "role", "img" per ogni singolo membro
