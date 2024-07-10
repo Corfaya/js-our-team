@@ -24,3 +24,8 @@ E ricordiamoci che console.log() è nostro amico!
 # FLOW
 - MILESTONE 0: Creo un array di oggetti contenenti le chiavi "name", "role", "img" per ogni singolo membro
 - MILESTONE 1: Uso del ciclo for per stampare i valori delle chiavi di ogni membro
+- MILESTONE 2: Recupero dal DOM il contenitore in cui voglio aggiungere le informazioni dei membri del team
+                Aggiungo una funzione per la creazione dei div contenitori delle info
+                Invoco la funzione all'interno del ciclo for e la salvo in una variabile
+                Inserisco sotto forma di stringa nome, ruolo e stringa della foto come contenuto del div
+                Appendo i div all'elemento recuperato dal DOM

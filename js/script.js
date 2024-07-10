@@ -36,7 +36,22 @@ let team = [
 //     console.log(team[k])
 // }
 
+const CONTAINER = document.getElementById("team-members")
+
 for (let k = 0; k < team.length; k++) {    
     // values printed on console
     console.log(`Nome: ${team[k].name}. Ruolo: ${team[k].role}. Foto: ${team[k].img}`)
+    //milestone 2
+    const COLUMN = divGenerator() // function calling
+    COLUMN.innerHTML = `Nome: ${team[k].name}. Ruolo: ${team[k].role}. Foto: ${team[k].img}` //milestone2 goal
+    COLUMN.classList.add("border") // border for debug
+    CONTAINER.append(COLUMN)
+}
+
+
+// function: div creation
+function divGenerator() {
+    const div = document.createElement('div') // div creation
+    div.classList.add("col-12", "col-md-6", "col-lg-4") // bootstrap classes added to divs
+    return div;
 }
