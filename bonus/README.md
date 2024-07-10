@@ -29,3 +29,4 @@ E ricordiamoci che console.log() è nostro amico!
                 Invoco la funzione all'interno del ciclo for e la salvo in una variabile
                 Inserisco sotto forma di stringa nome, ruolo e stringa della foto come contenuto del div
                 Appendo i div all'elemento recuperato dal DOM
+- BONUS 1: Aggiungo, nel contenuto di COLUMN, il path per visualizzare le foto in pagina

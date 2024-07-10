@@ -43,8 +43,7 @@ for (let k = 0; k < team.length; k++) {
     console.log(`Nome: ${team[k].name}. Ruolo: ${team[k].role}. Foto: ${team[k].img}`)
     //milestone 2
     const COLUMN = divGenerator() // function calling
-    COLUMN.innerHTML = `Nome: ${team[k].name}. Ruolo: ${team[k].role}. Foto: ${team[k].img}` //milestone2 goal
-    COLUMN.classList.add("border") // border for debug
+    COLUMN.innerHTML = `Nome: ${team[k].name}. Ruolo: ${team[k].role}. Foto: <img class="img-fluid" src="../img/${team[k].img}" alt="team member photo">` //milestone2 + bonus goal
     CONTAINER.append(COLUMN)
 }
 
