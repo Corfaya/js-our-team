@@ -45,9 +45,9 @@ for (let k = 0; k < team.length; k++) {
     const COLUMN = divGenerator() // function calling
     COLUMN.classList.add("d-flex")
     COLUMN.innerHTML = `<div class="card mh-100 my-3">
-    <div class="card-body d-flex flex-column">
+    <div class="card-body d-flex flex-column text-end">
     <h3 class="card-title">Nome: ${team[k].name}</h3>
-    <h5 class="card-text">Ruolo: ${team[k].role}.</h5>
+    <h5 class="card-text">Ruolo: ${team[k].role}</h5>
     </div>
     <img class="img-fluid card-img-bottom" src="../img/${team[k].img}" alt="team member photo">
     </div>` //milestone2 + bonus goal
