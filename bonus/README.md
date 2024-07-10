@@ -30,3 +30,4 @@ E ricordiamoci che console.log() è nostro amico!
                 Inserisco sotto forma di stringa nome, ruolo e stringa della foto come contenuto del div
                 Appendo i div all'elemento recuperato dal DOM
 - BONUS 1: Aggiungo, nel contenuto di COLUMN, il path per visualizzare le foto in pagina
+- BONUS 2: Aggiungere le classi BS per organizzare le info di ogni membro in card

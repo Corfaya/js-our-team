@@ -43,7 +43,14 @@ for (let k = 0; k < team.length; k++) {
     console.log(`Nome: ${team[k].name}. Ruolo: ${team[k].role}. Foto: ${team[k].img}`)
     //milestone 2
     const COLUMN = divGenerator() // function calling
-    COLUMN.innerHTML = `Nome: ${team[k].name}. Ruolo: ${team[k].role}. Foto: <img class="img-fluid" src="../img/${team[k].img}" alt="team member photo">` //milestone2 + bonus goal
+    COLUMN.classList.add("d-flex")
+    COLUMN.innerHTML = `<div class="card mh-100 my-3">
+    <div class="card-body d-flex flex-column">
+    <h3 class="card-title">Nome: ${team[k].name}</h3>
+    <h5 class="card-text">Ruolo: ${team[k].role}.</h5>
+    </div>
+    <img class="img-fluid card-img-bottom" src="../img/${team[k].img}" alt="team member photo">
+    </div>` //milestone2 + bonus goal
     CONTAINER.append(COLUMN)
 }
 
