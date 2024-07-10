@@ -10,7 +10,9 @@ Stampare le stesse informazioni su DOM sottoforma di stringhe
 Trasformare la stringa foto in una immagine effettiva
 ## BONUS 2
 Organizzare i singoli membri in card/schede
----------------------------
+
+
+
 Ecco i dati dell'array di oggetti:
 Nome - Ruolo - Foto
 Wayne Barnett - Founder & CEO - wayne-barnett-founder-ceo.jpg
