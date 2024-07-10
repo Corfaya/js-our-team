@@ -30,3 +30,13 @@ let team = [
         img: "barbara-ramos-graphic-designer.jpg"
     }
 ]
+
+// for(let k in team) {
+//     // every key-value printed on console
+//     console.log(team[k])
+// }
+
+for (let k = 0; k < team.length; k++) {    
+    // values printed on console
+    console.log(`Nome: ${team[k].name}. Ruolo: ${team[k].role}. Foto: ${team[k].img}`)
+}
